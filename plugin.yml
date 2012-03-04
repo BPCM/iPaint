@@ -1,0 +1,13 @@
+name: iPaint
+version: 1.2
+main: net.livecraft.DrAgonmoray.iPaint.iPaint
+commands:
+   ipaint:
+      description: Turn on/off iPaint.
+      usage:
+         /ipaint [on|off]
+permissions:
+   ipaint.paint.infinite:
+      description: iPaint users do not consume materials while painting
+   ipaint.paint:
+      description: Allows useage of iPaint
